@@ -1,0 +1,10 @@
+type Address{
+    street: String
+    city: String
+    state: String
+    neighborhood: String
+}
+
+type Query{
+    Address(cep: String): Address
+}
